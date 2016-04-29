@@ -1,0 +1,83 @@
+header
+	
+	display flex
+	justify-content: space-between
+	background #EFE5BE
+	
+	.Logo-header
+		width 12em
+	.title
+		
+		flex 1
+		display flex
+		justify-content center
+		align-items center
+		margin 1rem
+		color green
+		font-size 2.7em
+		font-weight 700
+		font-family serif
+	.social
+		
+		display flex
+		align-items flex-end
+		margin 1em
+		img 
+			margin 0 .4em
+			width 50px
+		.logo-iso
+			width 100px
+.navli
+	border-right .7px solid white
+.subli
+	border-bottom .6px solid white
+			
+#primary_nav_wrap
+	display flex
+	ul
+		list-style none
+		margin 0
+		padding 0
+		background-color #1e5c37
+		display flex
+		flex 1
+		a
+			display block
+			color white
+			text-decoration none
+			font-weight 900
+			font-size 16px
+			line-height 32px
+			padding 0 15px
+			text-align center
+		li
+			position relative
+			float left 
+			margin 0
+			padding 0
+			flex 1
+			&.current-menu-item
+				background #ddd
+			&:hover
+				background #66A96B
+				& > ul
+					display block
+		ul
+			display none
+			position absolute
+			top 100%
+			left 0
+			background #528651
+			padding 0
+			width 100%
+			li
+				float none
+				width 200px
+			a
+				line-height 120%
+				padding 10px 15px
+			ul
+				top 0
+				left 100%
+			
+		

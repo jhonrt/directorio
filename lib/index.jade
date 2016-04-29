@@ -1,0 +1,40 @@
+doctype html
+html(lang="es")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		title Directorio ELDP
+		link(rel="stylesheet", href="./public/css/app.css")
+
+body
+	include ./menu/template.jade	
+
+	section(class="Layout")
+		section(class="Card")
+			.Card-container
+				.Card-containerTitle   Francisco Barroso Luna
+				.Card-containerImage
+					img(src="./public/images/paco.jpg", alt="",class="Card-image")
+				.Card-datos
+					p(class="Card-ext") Extensión #163
+		section(class="Card")
+			.Card-container
+				.Card-containerTitle  Antonio
+				.Card-containerImage
+					img(src="./public/images/User.png", alt="",class="Card-image")
+				.Card-datos
+					p(class="Card-ext") Extensión #163
+
+
+
+		
+		
+	include ./footer/template.jade
+	
+	script(src="http://code.jquery.com/jquery-2.2.1.min.js")
+	script(src="./public/js/script.js")
+
+
+
+	
+
